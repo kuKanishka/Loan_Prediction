@@ -66,7 +66,7 @@ df['ApplicantIncome'].hist(bins=50)
 
 
 new_data=df.dropna(axis=0)  #Dropping of rows whose values are 'NaN' or '0' due to their non-numerical nature
-new_data                    #This may cause poor results
+new_data                    #This may cause poor results due to reduction in dataset
 
 
 # In[16]:
