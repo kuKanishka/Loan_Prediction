@@ -1,19 +1,13 @@
-
-# coding: utf-8
-
-# In[2]:
-
-
 import pandas as pd
-import numpy as np
 import matplotlib as plt
-from sklearn.preprocessing import Imputer
 from sklearn import metrics
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
+
+
 df=pd.read_csv("/home/kukanishka/Downloads/train.csv")   #reading of training data into dataframe
 df.head(10)
 
